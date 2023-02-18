@@ -1,3 +1,9 @@
+mod config;
+mod exp;
+
 fn main() {
-    println!("Hello, world!");
+    config::execute();
+
+    let i = 32;
+    exp::fizz_buzz::list(&i);
 }
